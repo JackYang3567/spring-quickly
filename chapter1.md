@@ -86,3 +86,7 @@ Spring Tool Suite的官方下载地址是：
 
 
 
+##### 图 1.6。初始 Spring 项目结构如 Spring Tool Suite 所示![](https://drek4537l1klr.cloudfront.net/walls8/v-6/Figures/1-6.png)
+
+
+
