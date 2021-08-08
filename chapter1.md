@@ -42,7 +42,7 @@ Spring Tool Suite的官方下载地址是：
 
 ##### 图 1.2。使用 Spring Tool Suite 中的 Initializr 启动一个新项目 {#d5e112}
 
-![](/assets/1-2.png)
+![](https://drek4537l1klr.cloudfront.net/walls8/v-6/Figures/1-2.png)
 
 ##### 图 1.2.1。使用 Spring Tool Suite 中的 Initializr 启动一个新项目\(for Eclipse in Windows 10\)![](/assets/1-2-1.png)
 
@@ -54,7 +54,7 @@ Spring Tool Suite的官方下载地址是：
 
 对于 Taco Cloud 应用程序，填写如图 1.3 所示的对话框，然后单击 Next。
 
-##### 图 1.3。为 Taco Cloud 应用程序指定常规项目信息![](/assets/1-3.png) {#d5e120}
+##### 图 1.3。为 Taco Cloud 应用程序指定常规项目信息![](https://drek4537l1klr.cloudfront.net/walls8/v-6/Figures/1-3.png) {#d5e120}
 
 ##### 图 1.3.1  为 Taco Cloud 应用程序指定常规项目信息\(for Eclipse in Windows 10\) {#d5e120}
 
@@ -64,7 +64,7 @@ Spring Tool Suite的官方下载地址是：
 
 至于依赖项本身，您可以展开各个部分并手动查找所需的依赖项，也可以在可用列表顶部的搜索框中搜索它们。对于 Taco Cloud 应用程序，您将从图 1.4 中显示的依赖项开始。
 
-##### 图 1.4。选择启动依赖项![](/assets/1-4.png) {#d5e129}
+##### 图 1.4。选择启动依赖项![](https://drek4537l1klr.cloudfront.net/walls8/v-6/Figures/1-4.png) {#d5e129}
 
 ##### 图 1.4.1。选择启动依赖项\(for Eclipse in Windows 10\) {#d5e129}
 
@@ -74,7 +74,7 @@ Spring Tool Suite的官方下载地址是：
 
 但是，如果您有点冒险，可以再单击一次 Next 以查看新建启动项目向导的最后一页，如图 1.5 所示。
 
-##### 图 1.5。（可选）指定备用 Initializr 地址![](/assets/1-5.png) {#d5e137}
+##### 图 1.5。（可选）指定备用 Initializr 地址![](https://drek4537l1klr.cloudfront.net/walls8/v-6/Figures/1-5.png) {#d5e137}
 
 ##### 图 1.5.1。（可选）指定备用 Initializr 地址\(for Eclipse in Windows 10\) {#d5e137}
 
