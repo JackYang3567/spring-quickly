@@ -24,3 +24,5 @@ Eclipse 需要设置后才可代码自动提醒
 
 将其中的 Auto activation triggers for Java 后面的 . 替换为 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.
 
+替换完成后点击 `Apply`之后就可以通过输入任何字母来实现代码自动提醒
+
