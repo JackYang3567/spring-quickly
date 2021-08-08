@@ -16,3 +16,11 @@ Spring Tool Suite 简称 STS,  是Spring开发所用的IDE, 有以下三种类�
 
 Eclipse 需要设置后才可代码自动提醒
 
+##### 解决方案
+
+首先打开Eclipse, 在顶部菜单栏点击Window-&gt; Preferences ，
+
+弹出窗口，然后选择 Java / Editor / Content Assist
+
+将其中的 Auto activation triggers for Java 后面的 . 替换为 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.
+
