@@ -10,5 +10,9 @@ Spring Tools 4 是  Spring IDE。
 
 # 1.1、如何设置 代码自动提示 {#articleContentId}
 
+由于 STS / Eclipse 的代码自动提醒是关闭的，只有在输入 . 的时候才会有代码的提醒。
+
+
+
 
 
