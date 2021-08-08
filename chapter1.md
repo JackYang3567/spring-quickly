@@ -38,6 +38,8 @@ Spring Tool Suite的官方下载地址是：
 
 到在 Spring Tool Suite 中开始一个新的 Spring 项目，转到 File 菜单并选择 New，然后选择 Spring Starter Project。图 1.2 显示了要查找的菜单结构。
 
+##### 图 1.2。使用 Spring Tool Suite 中的 Initializr 启动一个新项目 {#d5e112}
+
 ![](/assets/1-2.png)
 
 ![](/assets/1-2-1.png)
