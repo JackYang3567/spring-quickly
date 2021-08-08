@@ -42,5 +42,7 @@ Spring Tool Suite的官方下载地址是：
 
 ![](/assets/1-2.png)
 
-![](/assets/1-2-1.png)
+##### 图 1.2.1。使用 Spring Tool Suite 中的 Initializr 启动一个新项目\(for Eclipse in Windows 10\)![](/assets/1-2-1.png)
+
+
 
