@@ -84,7 +84,7 @@ Spring Tool Suite的官方下载地址是：
 
 ### 1.2.2 检查 Spring 项目结构 {#sigil_toc_id_2}
 
-
+项目在 IDE 中加载后，展开它以查看它包含的内容。图 1.6 显示了 Spring Tool Suite 中扩展的 Taco Cloud 项目。
 
 ##### 图 1.6。初始 Spring 项目结构如 Spring Tool Suite 所示![](https://drek4537l1klr.cloudfront.net/walls8/v-6/Figures/1-6.png)
 
