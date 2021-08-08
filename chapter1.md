@@ -44,5 +44,23 @@ Spring Tool Suite的官方下载地址是：
 
 ##### 图 1.2.1。使用 Spring Tool Suite 中的 Initializr 启动一个新项目\(for Eclipse in Windows 10\)![](/assets/1-2-1.png)
 
+选择 Spring Starter Project 后，将出现一个新项目向导对话框（图 1.3）。
+
+向导的第一页要求您提供一些常规项目信息，例如项目名称、描述和其他基本信息。
+
+如果您熟悉 Maven pom.xml 文件的内容，您就会将大多数字段识别为最终出现在 Maven 构建规范中的项目。
+
+对于 Taco Cloud 应用程序，填写如图 1.3 所示的对话框，然后单击 Next。
+
+
+
+##### 图 1.3。为 Taco Cloud 应用程序指定常规项目信息![](/assets/1-3.png) {#d5e120}
+
+
+
+##### 图 1.3.1  为 Taco Cloud 应用程序指定常规项目信息\(for Eclipse in Windows 10\) {#d5e120}
+
+![](/assets/1-3-1.png)
+
 
 
