@@ -82,3 +82,9 @@ Spring Tool Suite的官方下载地址是：
 
 单击完成后，项目将从 Initializr 下载并加载到您的工作区中。等待它加载和构建，然后您就可以开始开发应用程序功能了。但首先，让我们看看 Initializr 给出了什么你。
 
+
+
+### 1.2.2 检查 Spring 项目结构 {#sigil_toc_id_2}
+
+
+
