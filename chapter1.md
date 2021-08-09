@@ -88,5 +88,15 @@ Spring Tool Suite的官方下载地址是：
 
 ##### 图 1.6。初始 Spring 项目结构如 Spring Tool Suite 所示![](https://drek4537l1klr.cloudfront.net/walls8/v-6/Figures/1-6.png)
 
+您可能会认为这是典型的 Maven 或 Gradle 项目结构，其中应用程序源代码放在 src/main/java 下，测试代码放在 src/test/java 下，非 Java 资源放在 src/main/resources 下. 在该项目结构中，您需要注意以下项目：
+
+* mvnw和mvnw.cmd——这些是 Maven包装脚本。即使您的机器上没有安装 Maven，您也可以使用这些脚本来构建您的项目。
+* pom.xml — 这是 Maven 构建规范。我们稍后会更深入地研究这一点。
+* TacoCloudApplication.java——这是引导项目的 Spring Boot 主类。稍后我们将仔细研究这个类。
+* application.properties — 该文件最初是空的，但提供了一个可以指定配置属性的地方。我们将在本章中稍微修改这个文件，但我会将配置属性的详细解释推迟到第 5 章。
+* static — 您可以在此文件夹中放置要提供给浏览器的任何静态内容（图像、样式表、JavaScript 等）。它最初是空的。
+* 模板 — 您将在此文件夹中放置将用于向浏览器呈现内容的模板文件。它最初是空的，但您很快就会添加一个 Thymeleaf 模板。
+* TacoCloudApplicationTests.java— 这是一个简单的测试类，可确保 Spring 应用程序上下文加载成功。在开发应用程序时，您将向组合中添加更多测试。
+
 
 
