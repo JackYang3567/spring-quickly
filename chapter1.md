@@ -90,13 +90,103 @@ Spring Tool Suite的官方下载地址是：
 
 您可能会认为这是典型的 Maven 或 Gradle 项目结构，其中应用程序源代码放在 src/main/java 下，测试代码放在 src/test/java 下，非 Java 资源放在 src/main/resources 下. 在该项目结构中，您需要注意以下项目：
 
-* mvnw和mvnw.cmd——这些是 Maven包装脚本。即使您的机器上没有安装 Maven，您也可以使用这些脚本来构建您的项目。
+* `mvnw`和`mvnw.cmd`——这些是 Maven包装脚本。即使您的机器上没有安装 Maven，您也可以使用这些脚本来构建您的项目。
 * pom.xml — 这是 Maven 构建规范。我们稍后会更深入地研究这一点。
-* TacoCloudApplication.java——这是引导项目的 Spring Boot 主类。稍后我们将仔细研究这个类。
+* `TacoCloudApplication.java`——这是引导项目的 Spring Boot 主类。稍后我们将仔细研究这个类。
 * application.properties — 该文件最初是空的，但提供了一个可以指定配置属性的地方。我们将在本章中稍微修改这个文件，但我会将配置属性的详细解释推迟到第 5 章。
 * static — 您可以在此文件夹中放置要提供给浏览器的任何静态内容（图像、样式表、JavaScript 等）。它最初是空的。
 * 模板 — 您将在此文件夹中放置将用于向浏览器呈现内容的模板文件。它最初是空的，但您很快就会添加一个 Thymeleaf 模板。
-* TacoCloudApplicationTests.java— 这是一个简单的测试类，可确保 Spring 应用程序上下文加载成功。在开发应用程序时，您将向组合中添加更多测试。
+* `TacoCloudApplicationTests.java`— 这是一个简单的测试类，可确保 Spring 应用程序上下文加载成功。在开发应用程序时，您将向组合中添加更多测试。
+
+
+
+#### 探索构建规范
+
+什么时候您填写了 Initializr 表单，并指定您的项目应使用 Maven 构建。因此，Spring Initializr 为您提供了一个 pom.xml 文件，其中已经填充了您所做的选择。以下清单显示了 Initializr 提供的整个 pom.xml 文件。
+
+##### 清单 1.1。最初的 Maven 构建规范
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+        https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.4.0</version>
+    <relativePath />
+  </parent>
+  <groupId>sia</groupId>
+  <artifactId>taco-cloud</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>taco-cloud</name>
+  <description>Taco Cloud Example</description>
+
+  <properties>
+    <java.version>11</java.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-devtools</artifactId>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.junit.vintage</groupId>
+          <artifactId>junit-vintage-engine</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+  <repositories>
+    <repository>
+      <id>spring-milestones</id>
+      <name>Spring Milestones</name>
+      <url>https://repo.spring.io/milestone</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>spring-milestones</id>
+      <name>Spring Milestones</name>
+      <url>https://repo.spring.io/milestone</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+</project>
+```
 
 
 
