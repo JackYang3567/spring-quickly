@@ -38,3 +38,7 @@ Eclipse 需要设置后才可代码自动提醒
 
 由于存在多终端的情况（移动端，web前端，小程序等），所以会用Spring Boo来构建RESTful API
 
+### 2.2、在SpringBoot中使用Swagger
+
+
+
