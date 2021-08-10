@@ -40,5 +40,24 @@ Eclipse 需要设置后才可代码自动提醒
 
 ### 2.2、在SpringBoot中使用Swagger
 
+#### 2.2.1、 在pom中添加swagger的依赖
+
+在项目的pom.xml中添加swagger依赖，添加的依赖主要有两个，分别是swagger和swagger-ui
+
+```
+<!--swagger  begging-->
+    <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>2.9.2</version>
+    </dependency>
+    <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>2.9.2</version>
+    </dependency>
+<!--swagger  end-->
+```
+
 
 
