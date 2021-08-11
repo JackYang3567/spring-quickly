@@ -26,6 +26,12 @@ Eclipse 需要设置后才可代码自动提醒
 
 替换完成后点击 `Apply`之后就可以通过输入任何字母来实现代码自动提醒
 
+### 1.2、在eclipse中打开命令行窗口
+
+##### window-&gt;show view-&gt;Terminal 然后 按 组合键 \[Ctr\] + \[Alt\] + \[Shift\] + \[T\] 在弹窗中选择 Local Terminal
+
+
+
 ## 2、Spring Boot + Swagger2 自动生成api接口文档
 
 ### 2.1、什么是Swagger
