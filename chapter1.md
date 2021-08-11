@@ -61,6 +61,8 @@ public class ServiceConfiguration {
 }
 ```
 
+该@Configuration注解向 Spring 表明这是一个配置类，它将向 Spring 应用程序上下文提供 bean。配置的类方法使用@Bean注解进行标注，表示它们返回的对象应该作为 bean 添加到应用程序上下文中（默认情况下，它们各自的 bean ID 将与定义它们的方法的名称相同）。
+
 Spring Tool Suite的官方下载地址是：
 
 [https://spring.io/tools](https://spring.io/tools)
