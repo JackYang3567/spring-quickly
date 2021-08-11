@@ -44,6 +44,23 @@ Spring开发面向云的由微服务组成的应用，其关注点是反应式�
 </bean>
 ```
 
+然而，在 Spring 的最新版本中，基于 Java 的配置更为常见。以下基于 Java 的配置类等价于 XML 配置：
+
+```
+@Configuration
+public class ServiceConfiguration {
+  @Bean
+  public InventoryService inventoryService() {
+    return new InventoryService();
+  }
+
+  @Bean
+  public ProductService productService() {
+    return new ProductService(inventoryService());
+  }
+}
+```
+
 Spring Tool Suite的官方下载地址是：
 
 [https://spring.io/tools](https://spring.io/tools)
