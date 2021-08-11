@@ -30,6 +30,20 @@ Spring开发面向云的由微服务组成的应用，其关注点是反应式�
 
 ![](https://drek4537l1klr.cloudfront.net/walls8/v-6/Figures/1-1.png)
 
+在历史上，引导Spring应用上下文将bean装配在一起的方式是使用一个或多个XML文件（描述各个组件以及它们与其他组件的关联关系）
+
+例如，以下 XML 声明了两个 bean，一个 InventoryServicebean 和一个ProductServicebean，并通过构造函数参数将InventoryServicebean 连接到ProductService其中：
+
+```
+<bean id="inventoryService"
+      class="com.example.InventoryService" />
+
+<bean id="productService"
+      class="com.example.ProductService" />
+  <constructor-arg ref="inventoryService" />
+</bean>
+```
+
 Spring Tool Suite的官方下载地址是：
 
 [https://spring.io/tools](https://spring.io/tools)
@@ -97,8 +111,6 @@ Spring Tool Suite的官方下载地址是：
 * static — 您可以在此文件夹中放置要提供给浏览器的任何静态内容（图像、样式表、JavaScript 等）。它最初是空的。
 * 模板 — 您将在此文件夹中放置将用于向浏览器呈现内容的模板文件。它最初是空的，但您很快就会添加一个 Thymeleaf 模板。
 * `TacoCloudApplicationTests.java`— 这是一个简单的测试类，可确保 Spring 应用程序上下文加载成功。在开发应用程序时，您将向组合中添加更多测试。
-
-
 
 #### 探索构建规范
 
