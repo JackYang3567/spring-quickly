@@ -18,6 +18,8 @@ h2database 官网地址：[http://www.h2database.com/html/main.html](http://www.
 
 ##### Download: [All Platforms \(zip, 8 MB\)](https://h2database.com/h2-2019-10-14.zip)
 
+##### 解压下的文件。到D:\Program Files \(x86\)\h2
+
 ## 1、SpringTool Suite4 for Eclipse
 
 ### 1.1、如何设置 代码自动提示
