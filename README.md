@@ -30,7 +30,17 @@ Eclipse 需要设置后才可代码自动提醒
 
 ##### window-&gt;show view-&gt;Terminal 然后 按 组合键 \[Ctr\] + \[Alt\] + \[Shift\] + \[T\] 在弹窗中选择 Local Terminal
 
+### 1.3、console buffer size too low
 
+Eclipse 设置console显示更多的输出内容：
+
+> Windows &gt; Perferences &gt; Run/Debug &gt; Console
+>
+> 里面有个Console buffer size\(characters\)
+>
+> 默认数值只有80000
+>
+> 我们可以设置到1000000
 
 ## 2、Spring Boot + Swagger2 自动生成api接口文档
 
