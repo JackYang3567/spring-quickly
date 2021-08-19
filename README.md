@@ -14,6 +14,21 @@ H2是一个用Java开发的嵌入式数据库
 
 使用 H2 控制台（Spring Boot DevTools 在 [localhost:8080/h2-console](http://localhost:8080/h2-console) 启用）连接到数据库
 
+设置几个属性来确定数据库名称是个好主意 `application.yml：`
+
+```
+spring:
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+```
+
+http://localhost:8080/h2-console/  
+
+[`JDBC URL`](http://localhost:8080/h2-console/login.jsp?jsessionid=754dc67e7db7f39a75c33c21e1803444#)`: jdbc:h2:mem:tacocloud`
+
+：
+
 #### 0.1.1、下载与安装
 
 h2database 官网地址：[http://www.h2database.com/html/main.html](http://www.h2database.com/html/main.html)
