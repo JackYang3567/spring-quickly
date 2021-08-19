@@ -8,7 +8,7 @@ Spring Tool Suite 简称 STS,  是Spring开发所用的IDE, 有以下三种类�
 * Spring Tools 4 for Visual Studio Code
 * Spring Tools 4 for Theia
 
-### 0.1、SpringBoot集成H2database
+### 0.1、SpringBoot集成H2Database
 
 H2是一个用Java开发的嵌入式数据库
 
@@ -29,7 +29,7 @@ D:\Program Files (x86)\h2\bin>h2
 
 弹出h2管理页面，启动成功。
 
-打开浏览器访问：http://localhost:8082/
+打开浏览器访问：[http://localhost:8082/](http://localhost:8082/)
 
 ## 1、SpringTool Suite4 for Eclipse
 
