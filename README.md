@@ -23,7 +23,7 @@ spring:
     name: tacocloud
 ```
 
-http://localhost:8080/h2-console/  
+[http://localhost:8080/h2-console/](http://localhost:8080/h2-console/)
 
 [`JDBC URL`](http://localhost:8080/h2-console/login.jsp?jsessionid=754dc67e7db7f39a75c33c21e1803444#)`: jdbc:h2:mem:tacocloud`
 
