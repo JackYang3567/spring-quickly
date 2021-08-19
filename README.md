@@ -20,6 +20,17 @@ h2database 官网地址：[http://www.h2database.com/html/main.html](http://www.
 
 ##### 解压下的文件。到D:\Program Files \(x86\)\h2
 
+```
+C:\Users\86138>d:
+D:\>cd D:\Program Files (x86)\h2
+D:\Program Files (x86)\h2>cd bin
+D:\Program Files (x86)\h2\bin>h2
+```
+
+弹出h2管理页面，启动成功。
+
+打开浏览器访问：http://localhost:8082/
+
 ## 1、SpringTool Suite4 for Eclipse
 
 ### 1.1、如何设置 代码自动提示
