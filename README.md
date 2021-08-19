@@ -16,6 +16,8 @@ H2是一个用Java开发的嵌入式数据库
 
 h2database 官网地址：[http://www.h2database.com/html/main.html](http://www.h2database.com/html/main.html)
 
+##### Download: [All Platforms \(zip, 8 MB\)](https://h2database.com/h2-2019-10-14.zip)
+
 ## 1、SpringTool Suite4 for Eclipse
 
 ### 1.1、如何设置 代码自动提示
