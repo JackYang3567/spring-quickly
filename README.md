@@ -12,6 +12,8 @@ Spring Tool Suite 简称 STS,  是Spring开发所用的IDE, 有以下三种类�
 
 H2是一个用Java开发的嵌入式数据库
 
+使用 H2 控制台（Spring Boot DevTools 在 [localhost:8080/h2-console](http://localhost:8080/h2-console) 启用）连接到数据库
+
 #### 0.1.1、下载与安装
 
 h2database 官网地址：[http://www.h2database.com/html/main.html](http://www.h2database.com/html/main.html)
