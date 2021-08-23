@@ -48,6 +48,10 @@ D:\Program Files (x86)\h2\bin>h2
 
 打开浏览器访问：[http://localhost:8082/](http://localhost:8082/)
 
+
+
+### 0.2、安装Spring Boot CLI
+
 ## 1、SpringTool Suite4 for Eclipse
 
 ### 1.1、如何设置 代码自动提示
