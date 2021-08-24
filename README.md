@@ -52,9 +52,13 @@ D:\Program Files (x86)\h2\bin>h2
 
 ### 1.0、安装lombok
 
-### lombok简介
+#### 1.0.1、lombok简介
 
-### lombok安装：
+lombok是一个可以通过简单的注解的形式来帮助我们简化 Java 代码
+
+#### 1.0.2、lombok安装
+
+下载lombok插件：[https://www.projectlombok.org/download](https://www.projectlombok.org/download)
 
 ### 1.1、如何设置 代码自动提示
 
