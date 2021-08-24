@@ -58,7 +58,7 @@ lombok是一个可以通过简单的注解的形式来帮助我们简化 Java �
 
 #### 1.0.2、lombok安装
 
-下载lombok插件：[https://www.projectlombok.org/download](https://www.projectlombok.org/download)![](/images/lombok-download.png)![](/images/lombok-path.png)
+下载lombok插件：[https://www.projectlombok.org/download](https://www.projectlombok.org/download)![](/assets/images/lombok-download.png)![](/assets/images/lombok-path.png)
 
 ```
 C:\Users\86138>d:
