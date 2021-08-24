@@ -1,6 +1,6 @@
 # 简介
 
-failed to send request: 操作超时
+
 
 ## 0、STS
 
@@ -47,8 +47,6 @@ D:\Program Files (x86)\h2\bin>h2
 弹出h2管理页面，启动成功。
 
 打开浏览器访问：[http://localhost:8082/](http://localhost:8082/)
-
-
 
 ### 0.2、安装Spring Boot CLI
 
