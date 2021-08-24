@@ -72,6 +72,14 @@ D:\>cd D:\vswork\Tools\java
 D:\vswork\Tools\java>java -jar lombok.jar
 ```
 
+##### ![](/assets/images/lombok-select.png)![](/assets/lombok-install.png)
+
+##### 查看D:\Program Files \(x86\)\sts-4.11.1.RELEASE\SpringToolSuite4.ini
+
+,出现如下表示成功，然后重启IDE：
+
+![](/assets/lombok-end.png)
+
 ### 1.1、如何设置 代码自动提示
 
 由于 STS / Eclipse 的代码自动提醒是关闭的，只有在输入 . 的时候才会有代码的提醒。这对于经常使用其他 IDE 自动提醒的人很不友好（IDEA 和 VSCode 都是默认输入任何字符都会自动提醒）
