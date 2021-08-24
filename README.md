@@ -1,7 +1,5 @@
 # 简介
 
-
-
 ## 0、STS
 
 Spring Tool Suite 简称 STS,  是Spring开发所用的IDE, 有以下三种类型。
@@ -51,6 +49,12 @@ D:\Program Files (x86)\h2\bin>h2
 ### 0.2、安装Spring Boot CLI
 
 ## 1、SpringTool Suite4 for Eclipse
+
+### 1.0、安装lombok
+
+### lombok简介
+
+
 
 ### 1.1、如何设置 代码自动提示
 
