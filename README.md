@@ -134,16 +134,16 @@ Eclipse 设置console显示更多的输出内容：
 
 ```
 <!--swagger  begging-->
-    <dependency>
-        <groupId>io.springfox</groupId>
-        <artifactId>springfox-swagger2</artifactId>
-        <version>2.9.2</version>
-    </dependency>
-    <dependency>
-        <groupId>io.springfox</groupId>
-        <artifactId>springfox-swagger-ui</artifactId>
-        <version>2.9.2</version>
-    </dependency>
+   <dependency>
+	<groupId>io.springfox</groupId>
+	<artifactId>springfox-boot-starter</artifactId>
+	<version>3.0.0</version>
+</dependency>
+<dependency>
+	<groupId>io.springfox</groupId>
+	<artifactId>springfox-swagger-ui</artifactId>
+	<version>3.0.0</version>
+</dependency>
 <!--swagger  end-->
 ```
 
@@ -212,6 +212,7 @@ public class SwaggerConfig {
 > * @EnabledSwagger2 标识项目启动 SwaggerApi 文档
 > * ApiInfo 这个类时Swagger 页面展示的一些基础信息
 > * RequestHandlerSelectors.basePackage\("tacos“\) 这里的tacos是扫描包的路径
+> * 输入访问路径 /swagger-ui/index.html
 
 
 
