@@ -65,20 +65,20 @@ spring.datasource.password=123456
       `password` varchar(256) NOT NULL DEFAULT '' COMMENT '密码',
       `fullname` varchar(256) NOT NULL DEFAULT '' COMMENT '姓名',
       `email` varchar(50) DEFAULT NULL COMMENT '邮箱',
-      `phone` varchar(11) DEFAULT NULL COMMENT '座机号',
-      `mobile` varchar(11) DEFAULT NULL COMMENT '手机号',
-      `street` varchar(256) NOT NULL DEFAULT '' COMMENT '街道及门牌号',
-      `city` varchar(256) NOT NULL DEFAULT '' COMMENT '城市',
-      `state` varchar(256) NOT NULL DEFAULT '' COMMENT '省份',
-      `zip` varchar(256) NOT NULL DEFAULT '' COMMENT '邮政编码',
-      `role` varchar(50) NOT NULL DEFAULT '' COMMENT '角色名',
       `status` int NOT NULL DEFAULT '0' COMMENT '状态',
       PRIMARY KEY (`id`)
     ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=UTF8MB4 COMMENT='用户表';
 
+
+
+    INSERT INTO `users`
+    (`id`,`username`,`password`,
+    `fullname`,`email`,`status`)
+    VALUES
+    ('0','user','$2a$10$FnoSppxTFWMH0y/yY1b.DeNYbWROJI83pC7wLbiS3l2qhjFhf1HYC',
+    'Jack Yang','user@163.com','0');
+
 ##### 5、在项目中DemoApplication启动类中增加以下代码
-
-
 
 ### 0.2、安装Spring Boot CLI
 
