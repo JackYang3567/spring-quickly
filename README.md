@@ -33,7 +33,7 @@ spring:
 
 #### 0.1.1、配置 MySQL
 
-##### pom.xml文件中增加依赖：
+##### 1、pom.xml文件中增加依赖：
 
 ```
 <dependency>
@@ -43,9 +43,42 @@ spring:
 </dependency>
 ```
 
-##### Mysql创建数据库并设置字符集编码
+##### 2、在application.properties中加入配置
+
+```
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/tacocloud
+spring.datasource.username=root
+spring.datasource.password=123456
+```
+
+##### 3、Mysql创建数据库并设置字符集编码
 
     create database `tacocloud` character set utf8 collate utf8_general_ci;
+
+4、在数据库中，新建一张表，放入一丢丢的数据（注意：设计表时，要改表的字符集，排序规则，否则乱码）
+
+    DROP TABLE IF EXISTS `users`;
+    CREATE TABLE `users` (
+      `id` int NOT NULL AUTO_INCREMENT,
+      `username` varchar(50) NOT NULL DEFAULT '' COMMENT '管理员名',
+      `password` varchar(256) NOT NULL DEFAULT '' COMMENT '密码',
+      `fullname` varchar(256) NOT NULL DEFAULT '' COMMENT '姓名',
+      `email` varchar(50) DEFAULT NULL COMMENT '邮箱',
+      `phone` varchar(11) DEFAULT NULL COMMENT '座机号',
+      `mobile` varchar(11) DEFAULT NULL COMMENT '手机号',
+      `street` varchar(256) NOT NULL DEFAULT '' COMMENT '街道及门牌号',
+      `city` varchar(256) NOT NULL DEFAULT '' COMMENT '城市',
+      `state` varchar(256) NOT NULL DEFAULT '' COMMENT '省份',
+      `zip` varchar(256) NOT NULL DEFAULT '' COMMENT '邮政编码',
+      `role` varchar(50) NOT NULL DEFAULT '' COMMENT '角色名',
+      `status` int NOT NULL DEFAULT '0' COMMENT '状态',
+      PRIMARY KEY (`id`)
+    ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=UTF8MB4 COMMENT='用户表';
+
+##### 5、在项目中DemoApplication启动类中增加以下代码
+
+
 
 ### 0.2、安装Spring Boot CLI
 
