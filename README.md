@@ -33,22 +33,9 @@ spring:
 
 #### 0.1.1、下载与安装
 
-h2database 官网地址：[http://www.h2database.com/html/main.html](http://www.h2database.com/html/main.html)
+    create database `tacocloud` character set utf8 collate utf8_general_ci;
 
-##### Download: [All Platforms \(zip, 8 MB\)](https://h2database.com/h2-2019-10-14.zip)
 
-##### 解压下的文件。到D:\Program Files \(x86\)\h2
-
-```
-C:\Users\86138>d:
-D:\>cd D:\Program Files (x86)\h2
-D:\Program Files (x86)\h2>cd bin
-D:\Program Files (x86)\h2\bin>h2
-```
-
-弹出h2管理页面，启动成功。
-
-打开浏览器访问：[http://localhost:8082/](http://localhost:8082/)
 
 ### 0.2、安装Spring Boot CLI
 
@@ -135,14 +122,14 @@ Eclipse 设置console显示更多的输出内容：
 ```
 <!--swagger  begging-->
    <dependency>
-	<groupId>io.springfox</groupId>
-	<artifactId>springfox-boot-starter</artifactId>
-	<version>3.0.0</version>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-boot-starter</artifactId>
+    <version>3.0.0</version>
 </dependency>
 <dependency>
-	<groupId>io.springfox</groupId>
-	<artifactId>springfox-swagger-ui</artifactId>
-	<version>3.0.0</version>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>3.0.0</version>
 </dependency>
 <!--swagger  end-->
 ```
