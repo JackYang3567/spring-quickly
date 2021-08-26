@@ -31,11 +31,13 @@ spring:
 
 [`JDBC URL`](http://localhost:8080/h2-console/login.jsp?jsessionid=754dc67e7db7f39a75c33c21e1803444#)`: jdbc:h2:mem:tacocloud`
 
-#### 0.1.1、下载与安装
+#### 0.1.1、配置 MySQL
+
+
+
+##### Mysql创建数据库并设置字符集编码
 
     create database `tacocloud` character set utf8 collate utf8_general_ci;
-
-
 
 ### 0.2、安装Spring Boot CLI
 
