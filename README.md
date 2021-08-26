@@ -33,7 +33,15 @@ spring:
 
 #### 0.1.1、配置 MySQL
 
+##### pom.xml文件中增加依赖：
 
+```
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <scope>runtime</scope>
+</dependency>
+```
 
 ##### Mysql创建数据库并设置字符集编码
 
